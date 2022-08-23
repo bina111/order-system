@@ -1,0 +1,120 @@
+page{
+    display: flex;
+    background: #f8f8f8;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    flex: 1;
+    margin-bottom: 40rpx;
+    overflow: scroll;
+}
+
+.content-title{
+    background-color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 28rpx;
+    padding: 0 10rpx;
+}
+
+.order{
+    margin-top: 20rpx;
+    background: white;
+}
+
+.order-title{
+    font-size: 24rpx;
+    color: #a2a1a0;
+    padding: 24rpx;
+}
+
+.operate{
+    height: 110rpx;
+    display: flex;
+}
+
+.operate-info{
+    width: 74%;
+    background: #353535;
+    color: white;
+    line-height: 110rpx;
+    padding-left: 40rpx;
+    font-size: 40rpx;
+}
+
+.operate-submit{
+    width: 26%;
+    background: #ff9c35;
+    color: white;
+    line-height: 110rpx;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.order-list{
+    padding: 0 30rpx;
+}
+
+.order-item{
+    display: flex;
+    font-size: 32rpx;
+    border-top: 1rpx #e3e3e3 solid;
+    background: white;
+    padding: 25rpx 0;
+}
+
+.order-item-1{
+    flex: 1;
+    display: flex;
+}
+
+.order-item-image{
+    width: 94rpx;
+    height: 94rpx;
+    margin-right: 25rpx;
+}
+
+.order-item-number{
+    color: #a3a3a3;
+    font-size: 28rpx;
+    margin-top: 4rpx;
+}
+
+.order-promotion-icon{
+    background: #ff4500;
+    padding: 2rpx 6rpx 6rpx;
+    font-size: 28rpx;
+    margin-right: 8rpx;
+    color: white;
+    display: inline-block;
+}
+
+.order-promotion-price{
+    color: #ff4500;
+}
+
+.order-total-price{
+    font-size: 40rpx;
+}
+
+.content-comment{
+    margin-top: 20rpx;
+    background-color: white;
+    padding: 10rpx 30rpx 20rpx;
+}
+
+.content-comment >label{
+    color: #a3a3a3;
+    font-size: 32rpx;
+}
+
+.content-comment > textarea{
+    height: 160rpx;
+    font-size: 24rpx;
+    width: 95%;
+    padding: 20rpx;
+    background: #f2f2f2;
+    margin-top: 10rpx;
+}

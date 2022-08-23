@@ -1,0 +1,7 @@
+<view class="head">
+    <view class="head-info" wx:if="{{is_getUser}}">
+        <image class="head-img" src="{{userInfo.avatarUrl}}"></image>
+        <view class="text">{{userInfo.nickName}}</view>
+    </view>
+    <view class="head-info" wx:else>点击获取头像</view>
+</view>

@@ -1,0 +1,64 @@
+/* 轮播图样式 */
+
+.swiper{
+  height: 350rpx;
+}
+
+.swiper image{
+  width: 100%;
+}
+
+/* 开始点餐小程序之旅 */
+
+.menu-bar{
+  display: flex;
+  margin-top: 20rpx;
+  
+}
+
+.menu-block{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.menu-start{
+  font-size: 38rpx;
+  color: white;
+  background-color: #ff9c35;
+  text-align: center;
+  padding: 16rpx 80rpx;
+  border-radius: 80rpx;
+}
+
+/* 广告图样式 */
+.ad-box{
+  margin-top: 10rpx;
+  text-align: center;
+}
+
+.ad-box image{
+  width: 710rpx;
+  height: 336rpx;
+}
+
+/* 底部商品样式 */
+.bottom-box{
+  margin: 10rpx 0;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.botom-item{
+  width: 49%;
+  display: inline-block;
+}
+
+.botom-item image{
+  width: 100%;
+}
+
+

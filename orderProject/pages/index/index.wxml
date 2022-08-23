@@ -1,0 +1,26 @@
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots="true" autoplay="true" duration="1000" interval="3000">
+  <block wx:for="{{img_swiper}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 开始点餐小程序之旅 -->
+<view class="menu-bar">
+  <view class="menu-block" bindtap="start" >
+    <view class="menu-start">开启点餐之旅→</view>
+  </view>
+</view>
+
+<!-- 中间广告部分 -->
+<view class="ad-box">
+  <image src="{{img_ad}}"></image>
+</view>
+
+<!-- 底部商品图 -->
+<view class="bottom-box">
+  <view class="botom-item" wx:for="{{img_category}}" wx:key="*this">
+    <image src="{{item}}" mode="widthFix"></image>
+  </view>
+</view>

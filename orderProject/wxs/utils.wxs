@@ -1,0 +1,12 @@
+var priceFormat = function (price) {  
+    return '¥ ' + parseFloat(price);
+}
+
+var checkPromotion = function (promotion) {  
+    return parseFloat(promotion) > 0
+}
+
+module.exports = {
+    priceFormat:priceFormat,
+    checkPromotion:checkPromotion
+}
